@@ -53,3 +53,10 @@ INSERT INTO issue_report
  'Canteen', 'Waste', 'In Progress'),
 (3, 'Lights Left On', 'Lights remain on in empty rooms',
  'Library', 'Energy', 'Resolved');
+ -- Sample tree-planting records
+INSERT INTO tree_record
+(quantity, location, record_date, activity_name)
+VALUES
+(10, 'Main Campus', '2026-10-10', 'Tree Plantation'),
+(15, 'College Garden', '2026-10-12', 'Green Campus Drive'),
+(5, 'Library Garden', '2026-10-15', 'Tree Plantation');
