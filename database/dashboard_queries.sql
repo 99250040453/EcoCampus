@@ -44,3 +44,6 @@ FROM activity a
 LEFT JOIN participation p
     ON a.activity_id = p.activity_id
 GROUP BY a.activity_id, a.activity_name;
+-- 9. Total Trees Planted
+SELECT COALESCE(SUM(quantity), 0) AS total_trees_planted
+FROM tree_record;
